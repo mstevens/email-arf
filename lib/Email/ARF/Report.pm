@@ -45,7 +45,7 @@ offending message.
 
 =head1 METHODS
 
-=head3 new
+=head2 new
 
   my $report = Email::ARF::Report->new($message);
 
@@ -262,7 +262,11 @@ sub field {
 
 =head2 feedback_type
 
+Feedback type.
+
 =head2 user_agent
+
+User agent.
 
 =head2 arf_version
 
